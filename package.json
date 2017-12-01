@@ -1,0 +1,22 @@
+{
+  "name": "cerebro-qwant",
+  "version": "0.1.0",
+  "repository": "https://github.com/YuukanOO/cerebro-qwant",
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.20"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}
