@@ -1,3 +1,4 @@
+// All credits goes to https://davidwalsh.name/javascript-debounce-function
 export default function debounce (func, wait, immediate) {
 	var timeout;
 	return () => {
