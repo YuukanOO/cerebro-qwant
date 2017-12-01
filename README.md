@@ -17,6 +17,8 @@ Type any word you'd like to search!
 
 - [ ] Cleanup the code
 - [ ] Maybe use Qwant previews
+- [ ] Fix loading not centered
+- [ ] Use import { memoize } from 'cerebro-tools';
 
 ## License
 
