@@ -37,9 +37,10 @@ class Preview extends React.Component {
 
   render() {
     return (
-      <div className={styles.wrapper}>
+      <div className={(this.state.loading || this.state.items.length === 0) ? '' : styles.wrapper}>
         {this.state.loading ? 
         <Loading /> :
+        (this.state.items.length > 0 ?
         <KeyboardNav>
           <ul className={styles.list}>
           {
@@ -54,7 +55,8 @@ class Preview extends React.Component {
             ))
           }
           </ul>
-        </KeyboardNav>}
+        </KeyboardNav> :
+        <p className={styles.noresults}>No suggestions</p>)}
       </div>
       );
   }
